@@ -1,0 +1,451 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"22 D:\MC\Codes\ECU_03.X\can.c
+[e E10499 _CanOpMode `uc
+e_can_op_mode_normal 0
+e_can_op_mode_loop 64
+e_can_op_mode_config 128
+]
+"14 D:\MC\Codes\ECU_03.X\message_handler.c
+[e E10649 . `uc
+e_ind_off 0
+e_ind_left 1
+e_ind_right 2
+]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"15 D:\MC\Codes\ECU_03.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"50
+[v _get_msg_id_std get_msg_id_std `(us  1 s 2 get_msg_id_std ]
+"57
+[v _set_msg_id_std set_msg_id_std `(v  1 s 1 set_msg_id_std ]
+"89
+[v _can_receive can_receive `(v  1 e 1 0 ]
+"5 D:\MC\Codes\ECU_03.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"28
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"43
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"15 D:\MC\Codes\ECU_03.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+"10 D:\MC\Codes\ECU_03.X\main.c
+[v _init_leds init_leds `(v  1 s 1 init_leds ]
+"15
+[v _init_config init_config `(v  1 s 1 init_config ]
+"27
+[v _main main `(v  1 e 1 0 ]
+"16 D:\MC\Codes\ECU_03.X\message_handler.c
+[v _handle_speed_data handle_speed_data `(v  1 e 1 0 ]
+"22
+[v _handle_gear_data handle_gear_data `(v  1 e 1 0 ]
+"28
+[v _handle_rpm_data handle_rpm_data `(v  1 e 1 0 ]
+"38
+[v _handle_indicator_data handle_indicator_data `(v  1 e 1 0 ]
+"79
+[v _process_canbus_data process_canbus_data `(v  1 e 1 0 ]
+"4 D:\MC\Codes\ECU_03.X\timer0.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+"50 D:\MC\Codes\ECU_03.X\uart.c
+[v _putch putch `(v  1 e 1 0 ]
+"71
+[v _getch getch `(uc  1 e 1 0 ]
+"4423 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"20964
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21076
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21168
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21280
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21392
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21470
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"23529
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+[s S38 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RXB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"23582
+[s S47 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RXB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S54 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S61 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RXBODBEN 1 0 :1:2 
+]
+[s S64 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+`uc 1 RXB0M0 1 0 :1:5 
+`uc 1 RXB0M1 1 0 :1:6 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S73 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S78 . 1 `S38 1 . 1 0 `S47 1 . 1 0 `S54 1 . 1 0 `S61 1 . 1 0 `S64 1 . 1 0 `S73 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES78  1 e 1 @3936 ]
+"23722
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23834
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"24160
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24275
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24771
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24880
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24984
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25046
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25117
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25435
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25715
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S227 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"25759
+[s S236 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CANRX 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S245 . 1 `uc 1 AN10 1 0 :1:0 
+`uc 1 AN8 1 0 :1:1 
+`uc 1 CANTX 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN9 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S254 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S256 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S259 . 1 `S227 1 . 1 0 `S236 1 . 1 0 `S245 1 . 1 0 `S254 1 . 1 0 `S256 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES259  1 e 1 @3969 ]
+"26059
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"27060
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27282
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27504
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"29246
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"29258
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"29270
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"31713
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+[s S370 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"32188
+[s S379 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S388 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S392 . 1 `S370 1 . 1 0 `S379 1 . 1 0 `S388 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES392  1 e 1 @4082 ]
+"34757
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"34760
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"34919
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"35492
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"36086
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36122
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"36233
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36236
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"36248
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"36284
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"36317
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"36377
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"36665
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36671
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"38864
+[v _SENDB SENDB `VEb  1 e 0 @32099 ]
+"38885
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"38963
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"38969
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"38975
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"39098
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"39101
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"39107
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"39185
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39188
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39221
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"39224
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"39248
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"39308
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"39605
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"40331
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"40340
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"12 D:\MC\Codes\ECU_03.X\isr.c
+[v _count count `VEui  1 e 2 0 ]
+"13
+[v _blink_flag blink_flag `VEuc  1 e 1 0 ]
+"11 D:\MC\Codes\ECU_03.X\message_handler.c
+[v _rx_data rx_data `[8]uc  1 e 8 0 ]
+"12
+[v _rx_len rx_len `uc  1 e 1 0 ]
+"13
+[v _rx_msg_id rx_msg_id `us  1 e 2 0 ]
+"14
+[v _status_rx status_rx `E10649  1 e 1 0 ]
+"27 D:\MC\Codes\ECU_03.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"43
+} 0
+"79 D:\MC\Codes\ECU_03.X\message_handler.c
+[v _process_canbus_data process_canbus_data `(v  1 e 1 0 ]
+{
+"94
+} 0
+"16
+[v _handle_speed_data handle_speed_data `(v  1 e 1 0 ]
+{
+[v handle_speed_data@data data `*.30uc  1 p 1 5 ]
+[v handle_speed_data@len len `uc  1 p 1 6 ]
+"20
+} 0
+"28
+[v _handle_rpm_data handle_rpm_data `(v  1 e 1 0 ]
+{
+[v handle_rpm_data@data data `*.30uc  1 p 1 5 ]
+[v handle_rpm_data@len len `uc  1 p 1 6 ]
+"32
+} 0
+"38
+[v _handle_indicator_data handle_indicator_data `(v  1 e 1 0 ]
+{
+[v handle_indicator_data@data data `*.30uc  1 p 1 5 ]
+[v handle_indicator_data@len len `uc  1 p 1 6 ]
+"77
+} 0
+"22
+[v _handle_gear_data handle_gear_data `(v  1 e 1 0 ]
+{
+[v handle_gear_data@data data `*.30uc  1 p 1 5 ]
+[v handle_gear_data@len len `uc  1 p 1 6 ]
+"26
+} 0
+"43 D:\MC\Codes\ECU_03.X\clcd.c
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@data data `*.35Cuc  1 p 2 2 ]
+[v clcd_print@addr addr `uc  1 p 1 4 ]
+"50
+} 0
+"89 D:\MC\Codes\ECU_03.X\can.c
+[v _can_receive can_receive `(v  1 e 1 0 ]
+{
+"100
+[v can_receive@i i `i  1 a 2 16 ]
+"90
+[v can_receive@ptr ptr `*.39uc  1 a 2 14 ]
+"89
+[v can_receive@msg_id msg_id `*.30us  1 p 1 8 ]
+[v can_receive@data data `*.30uc  1 p 1 9 ]
+[v can_receive@len len `*.30uc  1 p 1 10 ]
+"111
+} 0
+"50
+[v _get_msg_id_std get_msg_id_std `(us  1 s 2 get_msg_id_std ]
+{
+"51
+[v get_msg_id_std@id id `us  1 a 2 6 ]
+"54
+} 0
+"15 D:\MC\Codes\ECU_03.X\main.c
+[v _init_config init_config `(v  1 s 1 init_config ]
+{
+"25
+} 0
+"4 D:\MC\Codes\ECU_03.X\timer0.c
+[v _init_timer0 init_timer0 `(v  1 e 1 0 ]
+{
+"29
+} 0
+"10 D:\MC\Codes\ECU_03.X\main.c
+[v _init_leds init_leds `(v  1 s 1 init_leds ]
+{
+"13
+} 0
+"28 D:\MC\Codes\ECU_03.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"41
+} 0
+"5
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@control_bit control_bit `uc  1 p 1 0 ]
+"7
+[v clcd_write@byte byte `uc  1 p 1 1 ]
+"26
+} 1
+"15 D:\MC\Codes\ECU_03.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"48
+} 0
+"15 D:\MC\Codes\ECU_03.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"26
+} 0
